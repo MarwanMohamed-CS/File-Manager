@@ -30,12 +30,12 @@ def update():
                   "H:/Movies_2Tera":          "2_tera_movies_tree.txt",
                   "H:/TV Series_2Tera":       "2_tera_tv_tree.txt",
                   "F:/Movies":                "main_hard_movies_f_tree.txt",
-                  "F:/TV Series":             "Main hard_f_tv_series_tree.txt",
+                  "F:/TV Series":             "main hard_f_tv_series_tree.txt",
                   "E:/Movies(2)":             "main_hard_movies_e_tree.txt",
                   "G:/Anime_1Tera":           "1_tera_animes_tree.txt",
                   "G:/Movies_1Tera":          "1_tera_movies_tree.txt",
                   "G:/TV Series_1Tera":    "1_tera_tv_tree.txt",
-                  "E:/TV Series":        "Main hard_e_tv_series_tree.txt", }
+                  "E:/TV Series":        "main hard_e_tv_series_tree.txt", }
     curr_dir = os.getcwd()
     for dir_path, txt in paths_txts.items():
         if not os.path.exists(dir_path):
@@ -82,7 +82,7 @@ def read():
         {"dir tag":    "This PC F",
          "clips path": "F:/Movies",
          "file type":    "movie", },  # main hard tv series f
-        "files_paths\\Main hard_f_tv_series_tree.txt":
+        "files_paths\\main hard_f_tv_series_tree.txt":
         {"dir tag": "This PC F",
          "clips path": "F:/TV Series",
          "file type": "tv series", },  # main hard movies e
@@ -90,7 +90,7 @@ def read():
         {"dir tag": "This PC E",
          "clips path": "E:/Movies(2)",
          "file type": "movie", },  # main hard tv series e
-        "files_paths\\Main hard_e_tv_series_tree.txt":
+        "files_paths\\main hard_e_tv_series_tree.txt":
         {"dir tag": "This PC E",
          "clips path": "E:/TV Series",
          "file type": "tv series", },  # 1 tera animes
